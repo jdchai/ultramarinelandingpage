@@ -1,0 +1,169 @@
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family:  "roboto";
+  max-width: 1400px;
+  flex-wrap: wrap;
+  flex: 1;
+  border: none;
+}
+/* remove this entirely, use div wrapper and make something like max-width to 1200 px, + two other css things. also add text wrap to vsc */
+
+header {
+  display: flex; 
+  background-color: #1F2937;
+  color: #F9FAF8;
+  font-size: 24px;
+  padding-left: 120px;
+  padding-right: 120px;
+  align-content: space-between;
+}
+
+.nav {
+  display: flex;
+  font-size: 18px;
+  color: #F9FAF8;
+  flex: 1 auto;
+  justify-content: flex-end;
+}
+
+h1 {
+  font-size: 24px;
+  color: #F9FAF8;
+  padding-right: 120px;
+}
+
+.sec1 {
+  display: flex;
+  flex-direction: row;
+  background-color: #1F2937;
+  padding: 50px 120px 75px 120px;
+}
+
+.button1 {
+  background-color: #3882F6;
+  border: #3882f6;
+  color: #F9FAF8;
+  max-width: 100px;
+  border-radius: 5px 5px 5px 5px;
+  padding: 5px 10px 5px 10px;
+
+}
+
+.sec1head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #f9faf8;
+  font-size: 36px;
+  font-weight: bold;
+  flex: 1 1 auto;
+}
+
+.sec1head p {
+  color: #E5E7EB;
+  font-size: 18px;
+  }
+
+  .frontimg {
+  width: 800px;
+  }
+
+  .dog{
+  max-width: 100%;
+  max-height: 100%;
+  }
+  
+.sec2 {
+  padding: 25px 120px 25px 120px;
+}
+
+.sec2wrap {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: space-around;
+  flex:  1 1 auto;
+  border-radius: 10px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.sec3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 50px 120px 50px 120px;
+}
+
+.inspire {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+
+.inspire2 {
+  font-weight: bold;
+  justify-content: flex-end;
+  display: flex
+}
+
+.adwrap {
+  padding: 50px 0px 25px 0px;
+}
+
+.ad {
+  background-color: #3882F6;
+  border-radius: 10px;
+  padding: 10px 120px 10px 120px;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttoncontainer {
+  align-self: center;
+}
+
+.adbutton {
+  background-color: #3882F6;
+  border: #F9FAF8;
+  border-style: solid;
+  color: #F9FAF8;
+  border-radius: 5px 5px 5px 5px;
+  height: 40px;
+  width: 120px;
+  white-space: nowrap;
+
+}
+
+footer {
+  background-color: #1F2937;
+  color: #F9FAF8 ;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+}
